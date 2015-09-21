@@ -59,7 +59,7 @@ $(function() {
 	//then checks to make sure there is at least one .entry in the .feed container
 	describe('Initial Entries', function() {
 		beforeEach(function(done){
-			loadFeed(0,done);
+			loadFeed(0, done);
 		});
 		it("one entry present", function(done){
 			expect($('.feed').length).toBeGreaterThan(0);
